@@ -2,6 +2,20 @@
 
 A Windows application for updating Sunshine streaming server with both stable and pre-release versions.
 
+## Quick Start (Recommended)
+
+1. Download the latest release from the [Releases](https://github.com/Huge-Dreamer/Sunshine-Updater/releases) page
+2. Extract the contents of `Sunshine-Updater_v1.0.0.zip` to a folder
+3. Run `update_sunshine_gui.bat` to launch the application
+4. Click "Check Versions" to see your currently installed version
+5. Choose between stable or pre-release updates
+6. Click "Download and Install" to update Sunshine
+
+The pre-built package includes everything you need:
+- Sunshine-Updater_Gui.exe
+- All required DLLs
+- Launch scripts
+
 ## Features
 
 - Graphical user interface
@@ -11,22 +25,9 @@ A Windows application for updating Sunshine streaming server with both stable an
 - Progress tracking
 - Administrator privileges handling
 
-## Requirements
+## Building from Source
 
-- Windows 10 or later
-- Visual Studio 2022 Build Tools (for building from source)
-- CMake 3.15 or later
-- vcpkg (for building from source)
-
-## Installation
-
-### Pre-built Binary
-
-1. Download the latest release from the [Releases](https://github.com/Huge-Dreamer/Sunshine-Updater/releases) page
-2. Extract the contents to a folder
-3. Run `update_sunshine_gui.bat` to launch the application
-
-### Building from Source
+If you want to build the application yourself:
 
 1. Clone the repository:
    ```bash
@@ -45,12 +46,12 @@ A Windows application for updating Sunshine streaming server with both stable an
 
 4. The built application will be in the `Sunshine_Updater_[timestamp]` folder
 
-## Usage
+## Requirements for Building
 
-1. Launch the application using `update_sunshine_gui.bat`
-2. Click "Check Versions" to see the currently installed version
-3. Choose between stable or pre-release updates
-4. Click "Download and Install" to update Sunshine
+- Windows 10 or later
+- Visual Studio 2022 Build Tools
+- CMake 3.15 or later
+- vcpkg
 
 ## License
 
